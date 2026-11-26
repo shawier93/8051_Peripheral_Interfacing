@@ -67,7 +67,7 @@ mov A, #'5'
 jmp got_it
 
 k6: cjne A, #6, k8
-mov A, #6'
+mov A, #'6'
 jmp got_it
 
 k8: cjne A, #8, k9
@@ -88,7 +88,7 @@ mov A, #™"
 jmp got_it
 
 k13: cjne A, #13, k14
-mov A, #0'
+mov A, #'0'
 jmp got_it
 
 k14: movA, ##'

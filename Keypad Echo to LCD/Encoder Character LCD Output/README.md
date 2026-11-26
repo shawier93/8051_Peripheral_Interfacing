@@ -54,9 +54,4 @@ B -->|Results or control signals| E["Output: LCD / serial by selected branch"]
 
 **Port registers:** `P1`, `P2`, `P3.0`, `P3.1`, `P3.2`, `P3.3`.
 
-## Technical limitations
-
-- Malformed character literal in `mov A, #6'`.
-- Malformed character literal in `mov A, #0'`.
-
 [Assembly source](source.asm)

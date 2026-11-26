@@ -317,7 +317,7 @@ cjne A, #6, k8
 ### B28
 
 ```asm
-mov A, #6'
+mov A, #'6'
 jmp got_it
 ```
 
@@ -415,7 +415,7 @@ cjne A, #13, k14
 ### B38
 
 ```asm
-mov A, #0'
+mov A, #'0'
 jmp got_it
 ```
 
