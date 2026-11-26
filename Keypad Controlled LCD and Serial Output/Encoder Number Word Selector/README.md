@@ -18,7 +18,7 @@ Use an encoder key to select a message and send characters to the LCD and serial
 
 ## Worked example
 
-Selecting key 3 in the documented word branch sends THREE. A separate version’s key-1 branch sends ONE.
+Selecting key 3 in the word-selection branch sends THREE. A separate version’s key-1 branch sends ONE.
 
 ### Calculation details
 
@@ -57,12 +57,4 @@ B -->|Results or control signals| E["Output: LCD / serial by selected branch"]
 
 **Port registers:** `P1`, `P2`, `P3.0`, `P3.2`, `P3.3`, `P3.4`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

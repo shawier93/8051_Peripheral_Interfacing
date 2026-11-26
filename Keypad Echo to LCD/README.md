@@ -6,7 +6,7 @@ Show a decoded key on the LCD, then wait for its release before accepting anothe
 
 ## Implementations
 
-Both entries use an encoder interface. One was recovered from a Proteus project. A malformed character literal in a draft needs attention before it can assemble.
+Both entries use an encoder interface. A malformed character literal in a draft needs attention before it can assemble.
 
 | Implementation | Input | Output |
 | --- | --- | --- |

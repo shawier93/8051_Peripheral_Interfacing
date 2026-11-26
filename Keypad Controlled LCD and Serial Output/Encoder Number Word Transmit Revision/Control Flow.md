@@ -12,7 +12,7 @@ Control-flow blocks are indexed by source line. Calls resume at the instruction 
 
 [Section 1](#section-1) · [Section 2](#section-2) · [Section 3](#section-3) · [Section 4](#section-4) · [Section 5](#section-5) · [Section 6](#section-6) · [Section 7](#section-7) · [Section 8](#section-8) · [Section 9](#section-9) · [Section 10](#section-10) · [Section 11](#section-11) · [Section 12](#section-12) · [Section 13](#section-13) · [Section 14](#section-14) · [Section 15](#section-15) · [Section 16](#section-16)
 
-## Destinations requiring review
+## Unresolved Branch Targets
 
 `HERE2`, `SIX`. A repeated label is also unresolved because it has more than one candidate target.
 

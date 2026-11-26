@@ -18,7 +18,7 @@ Respond to an external interrupt by decoding a key and sending the selected mess
 
 ## Worked example
 
-For decoded key 1, the documented handler sends ONE. The serial sequence begins with a carriage return.
+For decoded key 1, the interrupt handler sends ONE. The serial sequence begins with a carriage return.
 
 ### Calculation details
 
@@ -57,12 +57,4 @@ B -->|Results or control signals| E["Output: LCD / serial by selected branch"]
 
 **Port registers:** `P1`, `P2`, `P3.2`, `P3.5`, `P3.6`, `P3.7`.
 
-## Technical limitations
-
-No additional defect was recorded in the earlier source review. This is not evidence of a successful build or hardware test.
-
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

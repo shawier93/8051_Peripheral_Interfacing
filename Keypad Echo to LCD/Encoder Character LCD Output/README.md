@@ -56,11 +56,7 @@ B -->|Results or control signals| E["Output: LCD / serial by selected branch"]
 
 ## Technical limitations
 
-- has a malformed character literal in `mov A, #6'`.
-- has a malformed character literal in `mov A, #0'`.
+- Malformed character literal in `mov A, #6'`.
+- Malformed character literal in `mov A, #0'`.
 
-## Build and test
-
-1. Open the [assembly source](source.asm) in an 8051 assembler or simulator.
-2. Review the technical limitations and configure the peripherals required by this implementation.
-3. Check the expected result using the example inputs.
+[Assembly source](source.asm)

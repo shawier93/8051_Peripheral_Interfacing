@@ -6,7 +6,7 @@ Use an encoder key to select a message and send characters to the LCD and serial
 
 ## Implementations
 
-The word-selection and transmit revisions differ in their branches and output sequences. Follow the example for the selected implementation rather than assuming every key behaves identically.
+The word-selection and transmit revisions differ in their branches and output sequences. Key mappings differ between implementations.
 
 | Implementation | Input | Output |
 | --- | --- | --- |
